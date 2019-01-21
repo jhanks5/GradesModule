@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1511831519 source:c:\cs\cs final\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<algorithm>
+
+1511834882 source:c:\users\quick\downloads\school\computer science i fall 2017\cs final\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<algorithm>
+
+1511839781 source:c:\users\quick\downloads\school\computer science i fall 2017\cs final\possible function 1 testing 2.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<algorithm>
+
+1511838625 source:c:\users\quick\downloads\school\computer science i fall 2017\cs final\possible function 1 testing.c
+

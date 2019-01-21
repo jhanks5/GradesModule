@@ -1,0 +1,93 @@
+float class1_student1[3];
+float class1_student2[3];
+float class2_student1[3];
+float class2_student2[3];
+
+float class1_student1_total = 0;
+float class1_student2_total = 0;
+float class2_student1_total = 0;
+float class2_student2_total = 0;
+
+float class1_student1_average = 0;
+float class1_student2_average = 0;
+float class2_student1_average = 0;
+float class2_student2_average = 0;
+
+float class1_average = 0;
+float class2_average = 0;
+float total_average = 0;
+
+cout << "Input grade for test 1 for Student 1 in classroom 1 ";
+cin >> class1_student1[0];
+cout << endl;
+cout << "Input grade for test 2 for Student 1 in classroom 1 ";
+cin >> class1_student1[1];
+cout << endl;
+cout << "Input grade for test 3 for Student 1 in classroom 1 ";
+cin >> class1_student1[2];
+cout << endl;
+
+cout << "Input grade for test 1 for Student 2 in classroom 1 ";
+cin >> class1_student2[0];
+cout << endl;
+cout << "Input grade for test 2 for Student 2 in classroom 1 ";
+cin >> class1_student2[1];
+cout << endl;
+cout << "Input grade for test 3 for Student 2 in classroom 1 ";
+cin >> class1_student2[2];
+cout << endl;
+
+cout << "Input grade for test 1 for Student 1 in classroom 2 ";
+cin >> class2_student1[0];
+cout << endl;
+cout << "Input grade for test 2 for Student 1 in classroom 2 ";
+cin >> class2_student1[1];
+cout << endl;
+cout << "Input grade for test 3 for Student 1 in classroom 2 ";
+cin >> class2_student1[2];
+cout << endl;
+
+cout << "Input grade for test 1 for Student 2 in classroom 2 ";
+cin >> class2_student2[0];
+cout << endl;
+cout << "Input grade for test 2 for Student 2 in classroom 2 ";
+cin >> class2_student2[1];
+cout << endl;
+cout << "Input grade for test 3 for Student 2 in classroom 2 ";
+cin >> class2_student2[2];
+cout << endl;
+
+for(int i = 0; i < 3; i++)
+	{
+	   class1_student1_total += class1_student1[i];
+	   class1_student2_total += class1_student2[i];
+	   class2_student1_total += class2_student1[i];
+	   class2_student2_total += class2_student2[i];
+	}
+
+
+class1_student1_average = (class1_student1_total / 3);
+class1_student2_average = (class1_student2_total / 3);
+class2_student1_average = (class2_student1_total / 3);
+class2_student2_average = (class2_student2_total / 3);
+
+cout << "Student 1 classroom 1 average test grade: " << class1_student1_average << endl;
+cout << "Student 2 classroom 1 average test grade: " << class1_student2_average << endl;
+cout << "Student 1 classroom 2 average test grade: " << class2_student1_average << endl;
+cout << "Student 2 classroom 2 average test grade: " << class2_student2_average << endl;
+
+class1_average = (class1_student1_average + class1_student2_average) / 2;
+class2_average = (class2_student1_average + class2_student2_average) / 2;
+
+cout << "Classroom 1 average test grade: " << class1_average << endl;
+cout << "Classroom 2 average test grade: " << class2_average << endl;
+
+total_average = (class1_average + class2_average) / 2;
+cout << "Total School average: " << total_average;
+
+
+
+
+
+
+
